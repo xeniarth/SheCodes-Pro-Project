@@ -15,6 +15,11 @@ form {
   margin-top: 15px;
 }
 
+p {
+  font-size: xx-small;
+  text-align: center;
+}
+
 .container {
   color: white;
   box-shadow: 5px 10px 10px hsla(0, 0%, 0%, 0.3);
