@@ -86,11 +86,15 @@ cityInput.addEventListener("submit", handleSubmit);
 function showCelsiusTemp(event) {
   event.preventDefault();
   unitConversion("metric");
+  celsiusTemp.classList.add("active");
+  fahrenheitTemp.classList.remove("active");
 }
 
 function showFahrenheitTemp(event) {
   event.preventDefault();
   unitConversion("imperial");
+  celsiusTemp.classList.remove("active");
+  fahrenheitTemp.classList.add("active");
 }
 
 function displayConvTemp(response) {

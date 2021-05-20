@@ -48,6 +48,17 @@ p {
   box-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0.3);
 }
 
+.active {
+  color: white;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .weekday {
   font-weight: bold;
 }
