@@ -70,6 +70,7 @@ function displaySearchedCityTemp(response) {
   document.querySelector("h1").innerHTML = location;
   document.querySelector("#min-temp").innerHTML = `${minTemp}`;
   document.querySelector("#max-temp").innerHTML = `${maxTemp}`;
+  document.querySelector("#description").innerHTML = `${description}`;
   document.querySelector("#current-humidity").innerHTML = `${humidity}%`;
   document.querySelector("#current-wind").innerHTML = `${windspeed} km/h`;
   document.querySelector("#date-today");
