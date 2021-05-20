@@ -34,10 +34,6 @@ p {
   text-align: center;
 }
 
-.weather {
-  font-size: 100px;
-}
-
 .currentInfo {
   font-weight: bold;
   margin-bottom: 20px;
