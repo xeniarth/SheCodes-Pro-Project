@@ -48,8 +48,12 @@ p {
   box-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0.3);
 }
 
+#weather-icon {
+  padding-top: 30px;
+}
+
 #description {
-  padding-bottom: 25px;
+  padding-bottom: 55px;
 }
 
 #description::first-letter {
@@ -72,7 +76,6 @@ p {
 }
 
 .col-md-3.left {
-  height: 100%;
   background-color: #6fb98f;
 }
 

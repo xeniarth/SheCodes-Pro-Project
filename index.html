@@ -16,9 +16,9 @@
 	</head>
 
   <body>
-			<div class="container text-center">
-					<div class="row h-100">
-						<div class="col-md-3 left">
+			<div class="container text-center h-100">
+					<div class="row">
+						<div class="col-md-3 left flex-grow-1">
 								<div class="col-md">
 										<form class="form-inline" id="city-search-form">
 												<div class="mb-3">
@@ -39,17 +39,13 @@
 							</div>
 							<img src="" alt="" id=weather-icon>
 							<div id=description>
-								
+
 							</div>
 						<div class="col-md-12">
 							<div class="row">
 								<div class="col-md-4">
 										<div class="legend">
-											Temp
-											<span class="units">
-												<a href="#" id="celsius-link" class="active">°C</a> |
-												<a href="#" id="fahrenheit-link">°F</a>
-											</span>
+											Temperature
 											</div>
 								<div class="currentInfo" id=current-temperature>
 										<span id=min-temp>0</span>°/<span id=max-temp>0</span>°
@@ -82,88 +78,86 @@
 								<h2> Weather Forecast </h2>
 								</div>
 							<div class="row day1">
-									<div class="col-md-4 weatherIcon my-auto">
-											<i class="fas fa-cloud"></i>
-									</div>
-									<div class="col-md-2 weekday my-auto">
-										Monday
-									</div>
-									<div class="col-md-2 my-auto">
-											<span id=min-temp-day1>21</span>°/<span id=max-temp-day1>19</span>°
-										</div>
-									<div class="col-md-2 my-auto">
-										30%
-									</div>
-									<div class="col-md-2 my-auto">
-										40 km/h
-									</div>
+									
+								<div class="col-md-4 weatherIcon my-auto">
+										<img src="" alt="" id=icon-f1>
+								</div>
+								<div class="col-md-2 weekday my-auto" id=day-f1>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=temp-f1>
+										test
+								</div>
+								<div class="col-md-2 my-auto" id=hum-f1>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=wind-f1>
+									
+								</div>
+									
 								</div>
 								<div class="row day2">
 								<div class="col-md-4 weatherIcon my-auto">
-										<i class="fas fa-cloud"></i>
+										<img src="" alt="" id=icon-f2>
 								</div>
-								<div class="col-md-2 weekday my-auto">
-										Tuesday
+								<div class="col-md-2 weekday my-auto" id=day-f2>
+										
 								</div>
-								<div class="col-md-2 my-auto">
-										21°/19°
+								<div class="col-md-2 my-auto" id=temp-f2>
+										
 								</div>
-								<div class="col-md-2 my-auto">
-										30%
+								<div class="col-md-2 my-auto" id=hum-f2>
+										
 								</div>
-								<div class="col-md-2 my-auto">
-										40 km/h
+								<div class="col-md-2 my-auto" id=wind-f2>
 								</div>
 							</div>
 							<div class="row day3">
 									<div class="col-md-4 weatherIcon my-auto">
-											<i class="fas fa-cloud"></i>
-									</div>
-									<div class="col-md-2 weekday my-auto">
-											Wednesday
-									</div>
-									<div class="col-md-2 my-auto">
-											21°/19°
-										</div>
-									<div class="col-md-2 my-auto">
-										30%
-									</div>
-									<div class="col-md-2 my-auto">
-											40 km/h
+										<img src="" alt="" id=icon-f3>
+								</div>
+								<div class="col-md-2 weekday my-auto" id=day-f3>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=temp-f3>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=hum-f3>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=wind-f3>
 									</div>
 								</div>
 								<div class="row day4">
 										<div class="col-md-4 weatherIcon my-auto">
-												<i class="fas fa-cloud"></i>
-										</div>
-										<div class="col-md-2 weekday my-auto">
-											Thursday
-										</div>
-										<div class="col-md-2 my-auto">
-												21°/19°
-											</div>
-										<div class="col-md-2 my-auto">
-											30%
-										</div>
-										<div class="col-md-2 my-auto">
-												40 km/h
+										<img src="" alt="" id=icon-f4>
+								</div>
+								<div class="col-md-2 weekday my-auto" id=day-f4>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=temp-f4>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=hum-f4>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=wind-f4>
 										</div>
 									</div>
 									<div class="row day5">
 											<div class="col-md-4 weatherIcon my-auto">
-													<i class="fas fa-cloud"></i>
-											</div>
-											<div class="col-md-2 weekday my-auto">
-												Friday
-											</div>
-											<div class="col-md-2 my-auto">
-													21°/19°
-												</div>
-											<div class="col-md-2 my-auto">
-												30%
-											</div>
-											<div class="col-md-2 my-auto">
-												40 km/h
+										<img src="" alt="" id=icon-f5>
+								</div>
+								<div class="col-md-2 weekday my-auto" id=day-f5>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=temp-f5>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=hum-f5>
+										
+								</div>
+								<div class="col-md-2 my-auto" id=wind-f5>
 											</div>
 										</div>
 							</div>
